@@ -97,7 +97,10 @@ function Quote(props) {
         {
            query !== '' && big !== ''   ? <div>
             <Modal onClick={goBack}/>
-            <div className={classes.smallCon}>
+            <div 
+            className={classes.smallCon} 
+            onClick={goBack}
+            >
             <img src={big.urls.small} className={classes.small}  />
             </div>
         </div> : <p></p>
