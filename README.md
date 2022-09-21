@@ -30,4 +30,4 @@ Generate API key from : https://unsplash.com/developers
 
 ### Whom do I talk to?
 
-- I am: [Tobbey](https://tobbey.vercel.app/)
+- I am [Tobbey](https://tobbey.vercel.app/)
