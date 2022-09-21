@@ -6,7 +6,7 @@ import Quote from "./Quote";
 function App() {
   return (
     <div>
-STORY BOOK TEST
+
 {/* <Detail/> */}
 
 <Quote/>
