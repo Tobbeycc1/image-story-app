@@ -67,10 +67,11 @@
     position: fixed;
     display: flex;
     align-items: center;
-    height: 100vh;
+    height: 115vh;
     justify-content: center;
     width: 100vw;
     cursor: pointer;
+    z-index: 100;
 }
 
 .small{
