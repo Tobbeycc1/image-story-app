@@ -95,3 +95,14 @@
     margin-right: 20px;
     
 }
+@media screen and (max-width: 540px) {
+  
+    .img{
+      
+        width: 80vw;
+        height: 80vw;
+        
+    
+    }
+    
+}
