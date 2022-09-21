@@ -1,0 +1,80 @@
+.img{
+    display: inline-block;
+    /* position: absolute; */
+}
+.imgCon{
+    display: inline-block;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: zoom-in;
+
+
+}
+.inputCon{
+    display: block;
+    position: fixed;
+    z-index: 100;
+    /* height: 60px; */
+    top: 0;
+    background: white;
+    width: 100%;
+    /* display: none; */
+    
+}
+.inputSubCon{
+    position: relative;
+    width: 60vw;
+    height: 50px;
+    border-radius: 30px;
+    margin: 10px 20px;
+    border: 2px solid blue;
+    padding: 5px 20px;
+    top: 0;
+    display: flex;
+    align-items: center;
+
+}
+.input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    display: inline-block;
+    /* background: green; */
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.smallCon{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    height: 105vh;
+    justify-content: center;
+    
+
+}
+
+.small{
+    position: relative;
+    left: 33vw;
+    
+}
+.werey{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
+    font-size: 40px;
+    font-weight: bold;
+}
+.searchIcon{
+    display: inline-block;
+    /* background: red; */
+    font-size: 20px;
+    margin-right: 20px;
+    
+}
