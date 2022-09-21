@@ -102,6 +102,7 @@ function Quote(props) {
             onClick={goBack}
             >
             <img src={big.urls.small} className={classes.small}  />
+            
             </div>
         </div> : <p></p>
             
@@ -113,13 +114,7 @@ function Quote(props) {
                 notes.length>0 && query != '' ? notes.map((item, index)=>(
                     
                     <div className={classes.imgCon} id={item.id} onClick={bigPic}>
-                        {/* <p key={index}
-                        style={{background:item.color
-                        }}
-                        >
-                        Color
-                    </p>  
-<p>{item.id}</p> */}
+            
                     
          <img src={item.urls.small}
          className={classes.img}
