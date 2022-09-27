@@ -1,8 +1,7 @@
 # Image Story App - ReactJS Projects
 
-![](movie.gif)
 
-### Demo - Deployed over Github Pages
+### Demo - Deployed over vercel
 
 https://image-story-app.vercel.app/
 
