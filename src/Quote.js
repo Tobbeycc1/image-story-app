@@ -84,11 +84,21 @@ function Quote(props) {
   
     
     return(
+
+        
         <div className={classes.bigBack} style={big !== '' ? {position: 'fixed'} : {position: 'relative'}}>
 
         <div className={classes.inputCon}>
-<div className={classes.inputSubCon}>
-<FiSearch className={classes.searchIcon}/> <input className={classes.input}  type='text'  onChange={onChange} />
+<div className={notes.length>0 && query != '' ? classes.inputSubCon : classes.inputSubCOnRed}>
+
+<FiSearch className={classes.searchIcon}/> 
+
+{/* Input field */}
+<input 
+className={classes.input}  
+type='text'  
+onChange={onChange} 
+/>
 
 </div>
 
@@ -100,6 +110,7 @@ function Quote(props) {
             <div 
             className={classes.smallCon} 
             onClick={goBack}
+            key={big.id}
             >
             <img src={big.urls.small} className={classes.small}  />
             
@@ -113,7 +124,7 @@ function Quote(props) {
             {
                 notes.length>0 && query != '' ? notes.map((item, index)=>(
                     
-                    <div className={classes.imgCon} id={item.id} onClick={bigPic}>
+                    <div key={index} className={classes.imgCon} id={item.id} onClick={bigPic}>
             
                     
          <img src={item.urls.small}
